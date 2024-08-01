@@ -17,10 +17,9 @@ module.exports = {
       },
     },
     extend: {
-      // backgroundImage: {
-      //   'hero-pattern': "url('public/home page image.webp')",
-      //   // 'footer-texture': "url('/img/footer-texture.png')",
-      // },
+      backgroundImage: {
+        'cardGradient': 'linear-gradient(90deg, #494949 0%, #131313 70%)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
