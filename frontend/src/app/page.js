@@ -3,6 +3,7 @@ import HeroComponent from "@/components/heroComponent";
 import Image from "next/image";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
